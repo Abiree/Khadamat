@@ -2,7 +2,18 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="pixel_xl" />
+        <device id="pixel" />
+        <device id="pixel_3_xl" />
+        <device id="pixel_2_xl" />
+        <device id="Nexus 6" />
+        <device id="Nexus 7" />
+        <device id="pixel_3" />
+        <device id="pixel_2" />
+        <device id="pixel_3a_xl" />
+        <device id="Nexus 6P" />
+      </config>
     </shared>
   </component>
   <component name="ChangeListManager">
@@ -12,11 +23,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[GVVDU18822000672]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1mcJOmY1b96fGHBBI6a1uORI5CU" />
   <component name="ProjectViewState">
@@ -29,6 +49,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-1117864094">
+      <recent name="com.example.khadamat" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -105,9 +131,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="138" key="FileChooserDialogImpl" timestamp="1609787412487">
+    <state x="561" y="282" key="#Custom_Plugin_Repositories" timestamp="1609868709405">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="462" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1609787412487" />
+    <state x="561" y="282" key="#Custom_Plugin_Repositories/0.0.1366.768@0.0.1366.768" timestamp="1609868709405" />
+    <state x="263" y="138" key="AndroidCreateResourceFileDialog" timestamp="1609873590796">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="263" y="138" key="AndroidCreateResourceFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1609873590796" />
+    <state x="362" y="138" key="Downloadable.Font.Dialog.Size" timestamp="1609869636818">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="362" y="138" key="Downloadable.Font.Dialog.Size/0.0.1366.768@0.0.1366.768" timestamp="1609869636818" />
+    <state x="462" y="138" key="FileChooserDialogImpl" timestamp="1609868973341">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="462" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1609868973341" />
+    <state x="183" y="28" key="SettingsEditor" timestamp="1609868850137">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="183" y="28" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1609868850137" />
+    <state x="499" y="161" key="chooseDestDirectoryDialog" timestamp="1609872651751">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="499" y="161" key="chooseDestDirectoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1609872651751" />
   </component>
 </project>
