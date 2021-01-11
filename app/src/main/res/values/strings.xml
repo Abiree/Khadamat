@@ -2,5 +2,8 @@
     <string name="app_name">khadamat</string>
     <string name="Welcome">Welcome</string>
     <string name="To">To</string>
+    <string name="Search">Search</string>
+    <string name="Home">Home</string>
+    <string name="Avatar">avatar</string>
 
 </resources>
