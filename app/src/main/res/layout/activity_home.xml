@@ -93,25 +93,27 @@
                 app:cardCornerRadius="12dp"
                 android:layout_margin="12dp"
                 >
+
                 <LinearLayout
-                    android:orientation="vertical"
-                    android:padding="16dp"
-                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    >
+                    android:gravity="center"
+                    android:onClick="Service"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
                     <ImageView
-                        android:src="@drawable/logo_2"
                         android:layout_width="80dp"
-                        android:layout_height="80dp">
-                    </ImageView>
+                        android:layout_height="80dp"
+                        android:src="@drawable/logo_2"></ImageView>
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
                         android:text="service"
-                        android:textSize="18sp"
                         android:textColor="#6f6f6f"
-                        android:layout_marginTop="12dp">
+                        android:textSize="18sp">
 
                     </TextView>
 

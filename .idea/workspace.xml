@@ -3,16 +3,16 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
-        <device id="pixel_2" />
-        <device id="pixel_3_xl" />
         <device id="pixel_4" />
+        <device id="pixel_xl" />
         <device id="pixel" />
-        <device id="pixel_3a_xl" />
-        <device id="pixel_3a" />
-        <device id="pixel_3" />
+        <device id="pixel_2" />
         <device id="Nexus 5X" />
-        <device id="tv_1080p" />
-        <device id="wear_square" />
+        <device id="pixel_4_xl" />
+        <device id="pixel_2_xl" />
+        <device id="Nexus 6" />
+        <device id="Nexus 6P" />
+        <device id="pixel_3a" />
         <target>android-28</target>
       </config>
     </shared>
@@ -24,7 +24,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[GVVDU18822000672]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -34,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="valueResourceFile" />
+        <option value="Class" />
         <option value="layoutResourceFile" />
         <option value="resourceFile" />
       </list>
@@ -54,6 +55,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.39432257">
+      <recent name="com.example.khadamat.service" />
+    </key>
     <key name="android.template.-600804307">
       <recent name="com.example.khadamat.Home" />
     </key>
@@ -147,10 +151,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="412" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1610471672378" />
-    <state x="310" y="49" key="AndroidCreateResourceFileDialog" timestamp="1610472043582">
+    <state x="310" y="49" key="AndroidCreateResourceFileDialog" timestamp="1610486613948">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="310" y="49" key="AndroidCreateResourceFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1610472043582" />
+    <state x="310" y="49" key="AndroidCreateResourceFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1610486613948" />
     <state x="528" y="187" key="AndroidCreateXmlResourceDialog" timestamp="1610393128671">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -179,6 +183,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="499" y="161" key="chooseDestDirectoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1609872651751" />
+    <state x="338" y="174" key="run.anything.popup" timestamp="1610481122183">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="338" y="174" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1610481122183" />
     <state x="345" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610471625369">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
