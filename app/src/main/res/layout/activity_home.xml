@@ -12,7 +12,6 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:orientation="vertical"
-      android:Layout_weight="1"
       android:gravity="bottom"
       android:background="@drawable/header_bg"
       android:padding="12dp">

@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Khadamat">
         <activity android:name=".Home.HomeActivity"></activity>
-        <activity android:name=".Main" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

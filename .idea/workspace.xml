@@ -23,7 +23,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[GVVDU18822000672]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -138,14 +138,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="561" y="282" key="#Custom_Plugin_Repositories/0.0.1366.768@0.0.1366.768" timestamp="1609868709405" />
-    <state x="412" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610392344207">
+    <state x="412" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610471672378">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="412" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1610392344207" />
-    <state x="263" y="138" key="AndroidCreateResourceFileDialog" timestamp="1610394739070">
+    <state x="412" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1610471672378" />
+    <state x="310" y="49" key="AndroidCreateResourceFileDialog" timestamp="1610472043582">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="263" y="138" key="AndroidCreateResourceFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1610394739070" />
+    <state x="310" y="49" key="AndroidCreateResourceFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1610472043582" />
     <state x="528" y="187" key="AndroidCreateXmlResourceDialog" timestamp="1610393128671">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -170,5 +170,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="499" y="161" key="chooseDestDirectoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1609872651751" />
+    <state x="345" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610471625369">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="345" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610471625369" />
   </component>
 </project>
