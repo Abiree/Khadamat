@@ -13,6 +13,8 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.khadamat.ui.login.LoginActivity;
+
  public class MainActivity extends AppCompatActivity {
     //variables d'animation
      Animation topAnim,bottomAnim;
@@ -43,13 +45,10 @@ import android.widget.TextView;
         khadamat.setAnimation(bottomAnim);
         to.setAnimation(bottomAnim);
         //go to main page after a certain duration
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent intent = new Intent(MainActivity.this,Main.class);
-                startActivity(intent);
-                finish();
-            }
+        new Handler().postDelayed(() -> {
+            Intent intent = new Intent(MainActivity.this, Main0Activity.class);
+            startActivity(intent);
+            finish();
         },SPLASH_SCREEN);
 
 
