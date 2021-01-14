@@ -1,11 +1,9 @@
 package com.example.khadamat.Home;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
 import com.example.khadamat.R;
 import com.example.khadamat.service.ServiceActivity;
 

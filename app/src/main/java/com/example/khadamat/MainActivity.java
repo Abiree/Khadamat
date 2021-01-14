@@ -12,6 +12,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.khadamat.CreateService.CreateService;
 import com.example.khadamat.Home.HomeActivity;
 
  public class MainActivity extends AppCompatActivity {
@@ -47,7 +49,7 @@ import com.example.khadamat.Home.HomeActivity;
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+                Intent intent = new Intent(MainActivity.this, CreateService.class);
                 startActivity(intent);
                 finish();
             }

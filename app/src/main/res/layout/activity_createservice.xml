@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CreateService.CreateService">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/CreateService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/createservice"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/Step"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginStart="0dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="@string/step_2"
+            android:textColor="@color/app_main_color"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/Ville"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/gradient_spinner"
+            android:paddingStart="8dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="5dp"
+            android:popupBackground="#DFFFFFFF" />
+
+        <Spinner
+            android:id="@+id/Service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/gradient_spinner"
+            android:paddingStart="8dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="5dp"
+            android:popupBackground="#DFFFFFFF" />
+
+        <EditText
+            android:id="@+id/Description"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/description_du_service"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:background="@drawable/edittextborder"
+            android:padding="10dp"
+            android:minHeight="100dp"
+            android:autofillHints="@string/description_du_service" />
+
+        <EditText
+            android:id="@+id/Tele"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:ems="10"
+            android:hint="@string/telephone"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:background="@drawable/edittextborder"
+            android:padding="10dp"
+            android:autofillHints="@string/telephone" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/create"
+            android:onClick="gomain"/>
+    </LinearLayout>
+</ScrollView>

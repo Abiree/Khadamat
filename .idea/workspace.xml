@@ -17,6 +17,9 @@
       </config>
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a5820032-f10e-43f9-897c-7137b7c2f987" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,17 +58,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Desktop\khadamat\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.1594818079">
+      <recent name="com.example.khadamat.CreateService" />
+    </key>
     <key name="android.template.39432257">
       <recent name="com.example.khadamat.service" />
-    </key>
-    <key name="android.template.-600804307">
-      <recent name="com.example.khadamat.Home" />
     </key>
     <key name="android.template.-1117864094">
       <recent name="com.example.khadamat" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\pc\Desktop\khadamat\app\src\main\res\drawable" />
+    <key name="android.template.-600804307">
+      <recent name="com.example.khadamat.Home" />
     </key>
   </component>
   <component name="RunManager">
@@ -147,18 +153,18 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="561" y="282" key="#Custom_Plugin_Repositories/0.0.1366.768@0.0.1366.768" timestamp="1609868709405" />
-    <state x="412" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610471672378">
+    <state x="412" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610640228700">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="412" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1610471672378" />
-    <state x="310" y="49" key="AndroidCreateResourceFileDialog" timestamp="1610486613948">
+    <state x="412" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1610640228700" />
+    <state x="310" y="49" key="AndroidCreateResourceFileDialog" timestamp="1610638014388">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="310" y="49" key="AndroidCreateResourceFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1610486613948" />
-    <state x="528" y="187" key="AndroidCreateXmlResourceDialog" timestamp="1610393128671">
+    <state x="310" y="49" key="AndroidCreateResourceFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1610638014388" />
+    <state x="528" y="187" key="AndroidCreateXmlResourceDialog" timestamp="1610640111495">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="528" y="187" key="AndroidCreateXmlResourceDialog/0.0.1366.768@0.0.1366.768" timestamp="1610393128671" />
+    <state x="528" y="187" key="AndroidCreateXmlResourceDialog/0.0.1366.768@0.0.1366.768" timestamp="1610640111495" />
     <state x="262" y="88" key="AndroidThemeDialog" timestamp="1610474256790">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -171,6 +177,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="462" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1609868973341" />
+    <state width="1305" height="147" key="GridCell.Tab.0.bottom" timestamp="1610570693540">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1305" height="147" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1610570693540" />
+    <state width="1305" height="147" key="GridCell.Tab.0.center" timestamp="1610570693540">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1305" height="147" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1610570693540" />
+    <state width="1305" height="147" key="GridCell.Tab.0.left" timestamp="1610570693540">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1305" height="147" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1610570693540" />
+    <state width="1305" height="147" key="GridCell.Tab.0.right" timestamp="1610570693540">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1305" height="147" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1610570693540" />
     <state x="183" y="28" key="SettingsEditor" timestamp="1609868850137">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

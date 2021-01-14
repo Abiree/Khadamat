@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Khadamat">
-        <activity android:name=".service.ServiceActivity"></activity>
+        <activity android:name=".CreateService.CreateService"></activity>
+        <activity android:name=".service.ServiceActivity" />
         <activity android:name=".Home.HomeActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -5,5 +5,35 @@
     <string name="Search">Search</string>
     <string name="Home">Home</string>
     <string name="Avatar">avatar</string>
+    <string name="createservice">CreateService</string>
+    <string name="step_2">Step 2</string>
+    <string name="description_du_service">Description du service</string>
+    <string name="telephone">Telephone</string>
+    <string name="create">Create your service</string>
+    <string name="img_desc_service">image qui decrit le service</string>
+    <string name="img_desc_avatar">image qui decrit le avatar</string>
+    <string name="service">service</string>
+    <string name="more">more</string>
+    <string name="logo">logo</string>
+    <string name="prestataire">prestataire</string>
+    <string name="nom_de_service">Nom de Service</string>
+    <string name="description">Description :</string>
+    <string name="total_price">Prix Total :</string>
+    <string name="prix">200$</string>
+    <string name="contacter">contacter</string>
+    <string name="show_detail">Plus de Detail</string>
+    <string-array name="Villes">
+        <item>Marrakech</item>
+        <item>CasaBlanca</item>
+        <item>Rabat</item>
+        <item>Tetouan</item>
+        <item>Rabat</item>
+        <item>Fes</item>
+    </string-array>
+    <string-array name="Services">
+        <item>reparation</item>
+        <item>livraison</item>
+        <item>vente</item>
+    </string-array>
 
 </resources>
