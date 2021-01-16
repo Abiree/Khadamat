@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Khadamat">
-        <activity android:name=".CreateService.CreateService"></activity>
+        <activity android:name=".RegisterActivity"/>
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".Main0Activity" />
+
+        <activity android:name=".CreateService.CreateService"/>
         <activity android:name=".service.ServiceActivity" />
         <activity android:name=".Home.HomeActivity" />
         <activity android:name=".MainActivity">

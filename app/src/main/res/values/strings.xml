@@ -35,5 +35,24 @@
         <item>livraison</item>
         <item>vente</item>
     </string-array>
+    <string name="Description">To search for services connect to client\nTo make your service connect to service</string>
+    <string name="welcome_to_our_app">Welcome to our app</string>
+    <string name="Service">Service</string>
+    <string name="client">Client</string>
+    <string name="register">REGISTER</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="invalid_username" />
+    <string name="invalid_password" />
+    <string name="login_failed" />
+    <string name="full_name">Full name</string>
+    <string name="confirm_password">Confirm your Password</string>
+    <string name="next">Next</string>
+    <string name="step_1"><u>Step 1</u></string>
 
 </resources>
