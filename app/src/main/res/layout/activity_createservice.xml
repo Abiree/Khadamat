@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".CreateService.CreateService">
 
 
@@ -19,7 +20,7 @@
             android:layout_marginTop="20dp"
             android:fontFamily="sans-serif-black"
             android:text="@string/createservice"
-            android:textColor="@color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="30sp" />
 
         <TextView
@@ -70,7 +71,7 @@
             android:gravity="start|top"
             android:hint="@string/description_du_service"
             android:inputType="textMultiLine"
-            android:textColor="@color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:background="@drawable/edittextborder"
             android:padding="10dp"
             android:minHeight="100dp"
@@ -78,23 +79,27 @@
 
         <EditText
             android:id="@+id/Tele"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:ems="10"
             android:hint="@string/telephone"
             android:inputType="number"
-            android:textColor="@color/black"
+           
             android:background="@drawable/edittextborder"
             android:padding="10dp"
             android:autofillHints="@string/telephone" />
 
         <Button
             android:id="@+id/button2"
+            style="@style/gradientButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:text="@string/create"
+            android:textColor="@color/white"
+            app:backgroundTint="@null"
             android:onClick="gomain"/>
     </LinearLayout>
 </ScrollView>

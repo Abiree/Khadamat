@@ -6,7 +6,7 @@
     <string name="Home">Home</string>
     <string name="Avatar">avatar</string>
     <string name="createservice">CreateService</string>
-    <string name="step_2">Step 2</string>
+    <string name="step_2"><u>Step 2</u></string>
     <string name="description_du_service">Description du service</string>
     <string name="telephone">Telephone</string>
     <string name="create">Create your service</string>
