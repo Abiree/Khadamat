@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">khadamat</string>
-    
+    <string name="city">city</string>
+    <string name="cityName">Rabat</string>
+    <string name="email">email</string>
+    <string name="emailValue">electricien@gmail.com</string>
+    <string name="phone">phone</string>
+    <string name="phoneValue">+212600000000</string>
+    <string name="serviceName">service name</string>
+    <string name="service">electricien</string>
+    <string name="descriptionOfService">description of service</string>
+    <string name="description">
+        The electrician carries out the installation and maintenance of electrical systems,
+        whether in companies or in private homes.
+    </string>
+    <string name="user_name">VICTOR NUCULICI</string>
+
 </resources>

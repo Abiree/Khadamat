@@ -5,30 +5,122 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="System" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/chouaib" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5820032-f10e-43f9-897c-7137b7c2f987" name="Default Changelist" comment="" />
+    <list default="true" id="a5820032-f10e-43f9-897c-7137b7c2f987" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/khadamat/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/khadamat/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_5X_API_29]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1mcJOmY1b96fGHBBI6a1uORI5CU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="GVVDU18822000672" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-01-04T19:15:07.674Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_5X_API_29" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-01-14T11:27:43.178Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SelectDeploymentTargetsDialog.selectedDevices" value="Nexus_5X_API_29" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-958268193">
+      <recent name="com.example.khadamat" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -54,6 +146,8 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -94,6 +188,9 @@
       </method>
     </configuration>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a5820032-f10e-43f9-897c-7137b7c2f987" name="Default Changelist" comment="" />
@@ -104,10 +201,95 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/chouaib" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="138" key="FileChooserDialogImpl" timestamp="1609787412487">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="580" y="266" width="261" height="270" key="#Notifications" timestamp="1610622976886">
+      <screen x="56" y="27" width="1310" height="741" />
+    </state>
+    <state x="580" y="266" width="261" height="270" key="#Notifications/56.27.1310.741@56.27.1310.741" timestamp="1610622976886" />
+    <state x="169" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610623311710">
+      <screen x="56" y="27" width="1310" height="741" />
+    </state>
+    <state x="169" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/56.27.1310.741@56.27.1310.741" timestamp="1610623311710" />
+    <state x="519" y="105" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1610541129652">
+      <screen x="56" y="27" width="1310" height="741" />
+    </state>
+    <state x="519" y="105" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/56.27.1310.741@56.27.1310.741" timestamp="1610541129652" />
+    <state x="444" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610572884895">
+      <screen x="56" y="27" width="1310" height="741" />
+    </state>
+    <state x="444" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/56.27.1310.741@56.27.1310.741" timestamp="1610572884895" />
+    <state x="156" y="127" width="1110" height="541" key="AVDManager" timestamp="1610623840367">
+      <screen x="56" y="27" width="1310" height="741" />
+    </state>
+    <state x="156" y="127" width="1110" height="541" key="AVDManager/56.27.1310.741@56.27.1310.741" timestamp="1610623840367" />
+    <state x="294" y="155" width="824" height="491" key="AndroidCreateResourceDirectoryDialog" timestamp="1610871164687">
+      <screen x="56" y="27" width="1310" height="741" />
+    </state>
+    <state x="294" y="155" width="824" height="491" key="AndroidCreateResourceDirectoryDialog/56.27.1310.741@56.27.1310.741" timestamp="1610871164687" />
+    <state x="294" y="155" width="824" height="491" key="AndroidCreateResourceFileDialog" timestamp="1610706204978">
+      <screen x="56" y="27" width="1310" height="741" />
+    </state>
+    <state x="294" y="155" width="824" height="491" key="AndroidCreateResourceFileDialog/56.27.1310.741@56.27.1310.741" timestamp="1610706204978" />
+    <state x="527" y="189" width="357" height="423" key="AndroidCreateXmlResourceDialog" timestamp="1610627366535">
+      <screen x="56" y="27" width="1310" height="741" />
+    </state>
+    <state x="527" y="189" width="357" height="423" key="AndroidCreateXmlResourceDialog/56.27.1310.741@56.27.1310.741" timestamp="1610627366535" />
+    <state x="499" y="160" width="424" height="491" key="FileChooserDialogImpl" timestamp="1610702882086">
+      <screen x="56" y="27" width="1310" height="741" />
     </state>
     <state x="462" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1609787412487" />
+    <state x="499" y="160" width="424" height="491" key="FileChooserDialogImpl/56.27.1310.741@56.27.1310.741" timestamp="1610702882086" />
+    <state width="1264" height="60" key="GridCell.Tab.0.bottom" timestamp="1610923996768">
+      <screen x="56" y="27" width="1310" height="741" />
+    </state>
+    <state width="1264" height="60" key="GridCell.Tab.0.bottom/56.27.1310.741@56.27.1310.741" timestamp="1610923996768" />
+    <state width="1264" height="60" key="GridCell.Tab.0.center" timestamp="1610923996767">
+      <screen x="56" y="27" width="1310" height="741" />
+    </state>
+    <state width="1264" height="60" key="GridCell.Tab.0.center/56.27.1310.741@56.27.1310.741" timestamp="1610923996767" />
+    <state width="1264" height="60" key="GridCell.Tab.0.left" timestamp="1610923996767">
+      <screen x="56" y="27" width="1310" height="741" />
+    </state>
+    <state width="1264" height="60" key="GridCell.Tab.0.left/56.27.1310.741@56.27.1310.741" timestamp="1610923996767" />
+    <state width="1264" height="60" key="GridCell.Tab.0.right" timestamp="1610923996768">
+      <screen x="56" y="27" width="1310" height="741" />
+    </state>
+    <state width="1264" height="60" key="GridCell.Tab.0.right/56.27.1310.741@56.27.1310.741" timestamp="1610923996768" />
+    <state x="416" y="208" width="580" height="385" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog" timestamp="1610623240521">
+      <screen x="56" y="27" width="1310" height="741" />
+    </state>
+    <state x="416" y="208" width="580" height="385" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog/56.27.1310.741@56.27.1310.741" timestamp="1610623240521" />
+    <state x="375" y="174" key="run.anything.popup" timestamp="1610917010708">
+      <screen x="56" y="27" width="1310" height="741" />
+    </state>
+    <state x="375" y="174" key="run.anything.popup/56.27.1310.741@56.27.1310.741" timestamp="1610917010708" />
+    <state x="374" y="88" width="672" height="678" key="search.everywhere.popup" timestamp="1610915834810">
+      <screen x="56" y="27" width="1310" height="741" />
+    </state>
+    <state x="374" y="88" width="672" height="678" key="search.everywhere.popup/56.27.1310.741@56.27.1310.741" timestamp="1610915834810" />
   </component>
 </project>

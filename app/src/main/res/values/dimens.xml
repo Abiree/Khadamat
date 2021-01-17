@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ll_margin_top">20dp</dimen>
+    <dimen name="textUserNameSize">24dp</dimen>
+    <dimen name="textSizeProfileValues">14dp</dimen>
+    <dimen name="textViewHeight">24dp</dimen>
+    <dimen name="textViewPaddingLeft">40dp</dimen>
+    <dimen name="ProfileImageDim">140dp</dimen>
+
+</resources>
