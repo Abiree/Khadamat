@@ -133,7 +133,7 @@
                 style="@style/StyleProfileValues"
                 android:layout_height="87dp"
                 android:paddingRight="40dp"
-                android:text="@string/description" />
+                android:text="@string/descriptionn" />
 
 
         </LinearLayout>

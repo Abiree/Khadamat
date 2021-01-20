@@ -3,16 +3,16 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
-        <device id="pixel" />
         <device id="Nexus 5X" />
-        <device id="pixel_2" />
+        <device id="Nexus 6" />
+        <device id="pixel_3a" />
+        <device id="pixel_xl" />
         <device id="pixel_3" />
+        <device id="pixel_2" />
+        <device id="pixel" />
         <device id="pixel_4" />
         <device id="pixel_3a_xl" />
-        <device id="Nexus 6" />
         <device id="pixel_2_xl" />
-        <device id="pixel_xl" />
-        <device id="pixel_4_xl" />
         <target>android-28</target>
       </config>
     </shared>
