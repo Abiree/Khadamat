@@ -115,6 +115,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mcJOmY1b96fGHBBI6a1uORI5CU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -126,18 +127,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.995473841">
-      <recent name="com.example.khadamat" />
-    </key>
     <key name="android.template.39432257">
       <recent name="com.example.khadamat.service" />
     </key>
-    <key name="android.template.-600804307">
-      <recent name="com.example.khadamat.Home" />
+    <key name="android.template.995473841">
+      <recent name="com.example.khadamat" />
     </key>
     <key name="android.template.1594818079">
       <recent name="com.example.khadamat.CreateService" />
@@ -149,9 +147,13 @@
       <recent name="com.example.khadamat" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Desktop\khadamat\app\src\main\res" />
+      <recent name="C:\Users\pc\Desktop\khadamat\app\src\main\res\drawable" />
       <recent name="C:\Users\asus\Downloads\0000dirasa\androidmobile\Khadamat\app" />
       <recent name="C:\Users\pc\Desktop\khadamat\app\src\test" />
-      <recent name="C:\Users\pc\Desktop\khadamat\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.-600804307">
+      <recent name="com.example.khadamat.Home" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -254,6 +256,9 @@
       <updated>1609786916225</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="561" y="282" key="#Custom_Plugin_Repositories" timestamp="1609868709405">

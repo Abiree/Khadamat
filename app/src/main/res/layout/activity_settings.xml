@@ -46,7 +46,7 @@
             <TextView
                 android:id="@+id/name"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="13dp"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
                 android:text="@string/user_name"
@@ -79,7 +79,9 @@
             <TextView
                 android:id="@+id/textView17"
                 style="@style/StyleProfile"
-                android:text="full name" />
+                android:text="full name"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -125,7 +127,8 @@
                     style="@style/StylePlainText"
                     android:layout_width="0dp"
                     android:layout_weight="4"
-                    android:text="@string/cityName" />
+                    android:text="@string/cityName"
+                    android:layout_height="match_parent" />
 
                 <TextView
                     android:id="@+id/city"
@@ -220,14 +223,14 @@
                     style="@style/StylePlainText"
                     android:layout_width="0dp"
                     android:layout_weight="4"
-                    android:text="@string/service"  />
+                    android:text="@string/servicee"/>
 
                 <TextView
                     android:id="@+id/profession"
                     style="@style/StyleProfileValues"
                     android:layout_width="0dp"
                     android:layout_weight="4"
-                    android:text="@string/service" />
+                    android:text="@string/servicee" />
 
                 <TextView
                     android:id="@+id/edit_profession"
@@ -254,7 +257,7 @@
                     android:paddingRight="40dp"
                     android:layout_width="0dp"
                     android:layout_weight="4"
-                    android:text="@string/description" />
+                    android:text="@string/descriptionn" />
 
                 <TextView
                     android:id="@+id/description"
@@ -263,7 +266,7 @@
                     android:paddingRight="40dp"
                     android:layout_width="0dp"
                     android:layout_weight="4"
-                    android:text="@string/description" />
+                    android:text="@string/descriptionn" />
 
                 <TextView
                     android:id="@+id/edit_description"
