@@ -12,8 +12,6 @@ import com.example.khadamat.ui.login.LoginActivity;
 
 public class Main0Activity extends AppCompatActivity {
 
-    //splashscreenduration
-    private static int SPLASH_SCREEN = 100;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,12 +30,9 @@ public class Main0Activity extends AppCompatActivity {
     }
 
     public void onClickService(View view) {
-        new Handler().postDelayed(() -> {
+
             Intent intent = new Intent(Main0Activity.this, LoginActivity.class);
             startActivity(intent);
-            finish();
-        },SPLASH_SCREEN);
-
 
     }
     }

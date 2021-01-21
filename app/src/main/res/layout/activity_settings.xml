@@ -22,7 +22,7 @@
             android:orientation="horizontal">
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/imageView"
+                android:id="@+id/Image"
                 android:layout_width="@dimen/ProfileImageDim"
                 android:layout_height="@dimen/ProfileImageDim"
                 android:layout_marginTop="10dp"

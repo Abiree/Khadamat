@@ -23,6 +23,9 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class CreateService extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private EditText Tele,Description;
@@ -84,7 +87,8 @@ public class CreateService extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            Service service1 = new Service(telephone,description,ville,service);
+                            Service service1 = new Service(telephone,description,ville,service,200);
+
                             User user = new User(full_name, email, Password,service1);
                             FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
 

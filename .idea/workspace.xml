@@ -18,6 +18,8 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="ser" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
@@ -100,8 +102,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="valueResourceFile" />
-        <option value="layoutResourceFile" />
         <option value="resourceFile" />
+        <option value="layoutResourceFile" />
         <option value="Class" />
       </list>
     </option>
@@ -128,6 +130,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -260,10 +265,15 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="561" y="282" key="#Custom_Plugin_Repositories/0.0.1366.768@0.0.1366.768" timestamp="1609868709405" />
-    <state x="446" y="41" key="#com.intellij.ide.util.MemberChooser" timestamp="1611079438433">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="200" y="130" key="#PSD" timestamp="1611245897204">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="200" y="130" key="#PSD/0.0.1366.768@0.0.1366.768" timestamp="1611245897204" />
+    <state x="476" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1611253886731">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="446" y="41" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1611079438433" />
+    <state x="476" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1611253886731" />
     <state x="412" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611151970337">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -289,26 +299,42 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="462" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1610818647231" />
-    <state width="618" height="9" key="GridCell.Tab.0.bottom" timestamp="1611072711557">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1611255632762">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="618" height="9" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611072711557" />
-    <state width="1305" height="147" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1610570693540" />
-    <state width="618" height="9" key="GridCell.Tab.0.center" timestamp="1611072711556">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1611255632762" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1611255632761">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="618" height="9" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611072711556" />
-    <state width="1305" height="147" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1610570693540" />
-    <state width="618" height="9" key="GridCell.Tab.0.left" timestamp="1611072711556">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1611255632761" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1611255632761">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="618" height="9" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611072711556" />
-    <state width="1305" height="147" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1610570693540" />
-    <state width="618" height="9" key="GridCell.Tab.0.right" timestamp="1611072711557">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1611255632761" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1611255632761">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="618" height="9" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611072711557" />
-    <state width="1305" height="147" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1610570693540" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1611255632761" />
+    <state width="1323" height="192" key="GridCell.Tab.1.bottom" timestamp="1611250877534">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1611250877534" />
+    <state width="1323" height="192" key="GridCell.Tab.1.center" timestamp="1611250877533">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1611250877533" />
+    <state width="1323" height="192" key="GridCell.Tab.1.left" timestamp="1611250877533">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1611250877533" />
+    <state width="1323" height="192" key="GridCell.Tab.1.right" timestamp="1611250877534">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1611250877534" />
     <state x="263" y="126" key="IDE.errors.dialog" timestamp="1610819262728">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -329,6 +355,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="384" y="53" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1611006196847" />
+    <state x="304" y="127" key="psd.add.library.dependency.panel.dimension" timestamp="1611245895739">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="304" y="127" key="psd.add.library.dependency.panel.dimension/0.0.1366.768@0.0.1366.768" timestamp="1611245895739" />
     <state x="317" y="154" width="672" height="677" key="run.anything.popup" timestamp="1611072310764">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
