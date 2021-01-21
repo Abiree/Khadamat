@@ -33,6 +33,11 @@ public class CreateService extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_createservice);
+        //hideActionBar
+        if(getSupportActionBar()!=null)
+        {
+            getSupportActionBar().hide();
+        }
         //recuperer les spinners
         SpinnerVille = (Spinner)findViewById(R.id.Ville);
         SpinnerService = (Spinner)findViewById(R.id.Service);

@@ -14,6 +14,11 @@ public class ServiceActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.servicee);
+        //hideActionBar
+        if(getSupportActionBar()!=null)
+        {
+            getSupportActionBar().hide();
+        }
     }
 
     public void goprofile(View view) {

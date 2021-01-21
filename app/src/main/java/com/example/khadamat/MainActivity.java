@@ -32,6 +32,11 @@ import com.example.khadamat.ui.login.LoginActivity;
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
         setContentView(R.layout.activity_main);
 
+        if(getSupportActionBar()!=null)
+        {
+            getSupportActionBar().hide();
+        }
+
         //loading animations
         topAnim= AnimationUtils.loadAnimation(this,R.anim.top_animation);
         bottomAnim=AnimationUtils.loadAnimation(this,R.anim.bottom_animation);
