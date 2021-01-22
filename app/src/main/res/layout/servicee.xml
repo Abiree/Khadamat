@@ -39,7 +39,7 @@
                         android:layout_height="wrap_content"
                         android:contentDescription="@string/img_desc_avatar"
                         android:onClick="goprofile"
-                        app:srcCompat="@drawable/profile_img" />
+                        app:srcCompat="@drawable/profile_image" />
                 </androidx.cardview.widget.CardView>
 
                 <TextView
@@ -52,7 +52,7 @@
 
             </LinearLayout>
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/ServiceName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
@@ -62,9 +62,11 @@
                 android:textSize="30sp" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/servImg"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="900px"
+                android:maxHeight="900px"
+                android:layout_gravity="center"
                 android:contentDescription="@string/img_desc_service"
                 app:srcCompat="@drawable/logo_2" />
 
@@ -87,7 +89,7 @@
                     android:layout_marginStart="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="40dp"
-                    android:text="hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhv"
+                    android:text="description"
                     android:textSize="12sp"
                     android:layout_height="match_parent" />
             </ScrollView>

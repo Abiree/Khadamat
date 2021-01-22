@@ -41,7 +41,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/gradient_spinner"
@@ -87,10 +87,21 @@
             android:ems="10"
             android:hint="@string/telephone"
             android:inputType="number"
-           
             android:background="@drawable/edittextborder"
             android:padding="10dp"
             android:autofillHints="@string/telephone" />
+        <EditText
+            android:id="@+id/Price"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:ems="10"
+            android:hint="@string/Prix"
+            android:inputType="number"
+            android:background="@drawable/edittextborder"
+            android:padding="10dp"
+            android:autofillHints="@string/prix" />
 
         <Button
             android:id="@+id/button2"
@@ -115,6 +126,6 @@
             android:layout_marginTop="30dp"
             android:layout_marginEnd="32dp"
             android:layout_marginBottom="64dp"
-            android:visibility="visible" />
+            android:visibility="gone" />
     </LinearLayout>
 </ScrollView>

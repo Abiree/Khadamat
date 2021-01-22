@@ -27,7 +27,7 @@
                 android:layout_height="@dimen/ProfileImageDim"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/profile_img"
+                android:background="@drawable/profile_image"
                 android:padding="5dp"
                 app:shapeAppearanceOverlay="@style/Circular"
                 app:strokeColor="@android:color/holo_blue_light"

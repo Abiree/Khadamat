@@ -44,16 +44,12 @@ public class HomeActivity extends AppCompatActivity {
         }
         //adapter settings;
         serviceList = new ArrayList<>();
-
-
         recyclerView = (RecyclerView)findViewById(R.id.recyclerview);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        adapter = new ServiceAdapter(this, serviceList);
+        adapter = new ServiceAdapter(getApplicationContext(), serviceList);
         recyclerView.setAdapter(adapter);
-
         //SELECT * from USERS
-
         database = FirebaseDatabase.getInstance();
         ref = database.getReference("Users");
         ref.addListenerForSingleValueEvent(valueEventListener);

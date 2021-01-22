@@ -38,8 +38,7 @@
               android:layout_weight="1"
               android:contentDescription="@string/img_desc_avatar"
               android:onClick="goprofile"
-              app:srcCompat="@drawable/profile_img"
-              />
+              app:srcCompat="@drawable/profile_image" />
 
       </LinearLayout>
 

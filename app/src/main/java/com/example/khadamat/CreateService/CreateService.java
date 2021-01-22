@@ -28,7 +28,7 @@ import java.util.List;
 
 public class CreateService extends AppCompatActivity {
     private FirebaseAuth mAuth;
-    private EditText Tele,Description;
+    private EditText Tele,Description,Prix;
     private Spinner SpinnerVille,SpinnerService;
     private ProgressBar loading;
     private Bundle extra;
@@ -58,6 +58,7 @@ public class CreateService extends AppCompatActivity {
         loading = (ProgressBar) findViewById(R.id.loading);
         Tele=(EditText)findViewById(R.id.Tele);
         Description=(EditText)findViewById(R.id.Description);
+        Prix=(EditText)findViewById(R.id.Price);
         extra = getIntent().getExtras();
 
     }
@@ -68,8 +69,21 @@ public class CreateService extends AppCompatActivity {
         String Password=extra.getString("password");
         String telephone = Tele.getText().toString().trim();
         String description = Description.getText().toString().trim();
+        String prix = Prix.getText().toString().trim();
         String ville =SpinnerVille.getSelectedItem().toString();
         String service =SpinnerService.getSelectedItem().toString();
+        //set image
+        int imageId;
+        if(service.equals("reparation")){
+            imageId=R.drawable.reparation;
+        }
+        else if (service.equals("livraison")){
+            imageId=R.drawable.livraison;
+        }
+        else {
+            imageId=R.drawable.vente;
+        }
+        //check fields
         if (telephone.isEmpty()) {
             Tele.setError("Le telephone est requis");
             Tele.requestFocus();
@@ -80,6 +94,11 @@ public class CreateService extends AppCompatActivity {
             Description.requestFocus();
             return;
         }
+        if (prix.isEmpty()) {
+            Description.setError("Le prix est requis");
+            Description.requestFocus();
+            return;
+        }
 
         loading.setVisibility(View.VISIBLE);
         mAuth.createUserWithEmailAndPassword(email, Password)
@@ -87,7 +106,7 @@ public class CreateService extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            Service service1 = new Service(telephone,description,ville,service,200);
+                            Service service1 = new Service(full_name,telephone,description,ville,service,prix,imageId);
 
                             User user = new User(full_name, email, Password,service1);
                             FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
@@ -114,5 +133,6 @@ public class CreateService extends AppCompatActivity {
                 });
         Intent intent = new Intent(CreateService.this, HomeActivity.class);
         startActivity(intent);
+        finish();
     }
 }
