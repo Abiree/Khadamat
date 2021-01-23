@@ -9,10 +9,13 @@ import android.view.View;
 
 import com.example.khadamat.Home.HomeActivity;
 import com.example.khadamat.ui.login.LoginActivity;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class Main0Activity extends AppCompatActivity {
 
-
+    FirebaseAuth mAuth;
+    FirebaseUser firebaseUser;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +24,12 @@ public class Main0Activity extends AppCompatActivity {
         if(getSupportActionBar()!=null)
         {
             getSupportActionBar().hide();
+        }
+        //session
+        mAuth= FirebaseAuth.getInstance();
+        firebaseUser=mAuth.getCurrentUser();
+        if (firebaseUser != null) {
+            startActivity(new Intent(Main0Activity.this, HomeActivity.class));
         }
     }
 

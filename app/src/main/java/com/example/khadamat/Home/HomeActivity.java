@@ -8,12 +8,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.TextView;
+
 import com.example.khadamat.ProfileActivity;
 import com.example.khadamat.R;
 import com.example.khadamat.Service;
 import com.example.khadamat.ServiceAdapter;
 import com.example.khadamat.User;
 import com.example.khadamat.service.ServiceActivity;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -27,9 +31,13 @@ import java.util.List;
 public class HomeActivity extends AppCompatActivity {
     FirebaseDatabase database;
     DatabaseReference ref;
+    DatabaseReference ref2;
     RecyclerView recyclerView;
     ServiceAdapter adapter;
     List<Service> serviceList;
+    FirebaseAuth mAuth;
+    FirebaseUser firebaseUser;
+    TextView client;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,11 +57,33 @@ public class HomeActivity extends AppCompatActivity {
         adapter = new ServiceAdapter(this, serviceList);
         recyclerView.setAdapter(adapter);
 
+
         //SELECT * from USERS
 
         database = FirebaseDatabase.getInstance();
         ref = database.getReference("Users");
         ref.addListenerForSingleValueEvent(valueEventListener);
+        //current user
+        client=(TextView)findViewById(R.id.Client);
+        mAuth= FirebaseAuth.getInstance();
+        firebaseUser=mAuth.getCurrentUser();
+        Log.i("msj",firebaseUser.getUid());
+        ref2=database.getReference("Users/"+firebaseUser.getUid());
+        ref2.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+           if(snapshot.exists()){
+               User user =snapshot.getValue(User.class);
+               client.setText(user.getUsername());
+           }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+
     }
 
     ValueEventListener valueEventListener = new ValueEventListener() {

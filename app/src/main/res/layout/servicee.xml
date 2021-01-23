@@ -48,7 +48,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/prestataire"
                     android:textAlignment="center"
-                    android:textColor="#000000" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
             </LinearLayout>
             <TextView
