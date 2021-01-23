@@ -64,8 +64,8 @@
             <ImageView
                 android:id="@+id/servImg"
                 android:layout_width="match_parent"
-                android:layout_height="900px"
-                android:maxHeight="900px"
+                android:layout_height="700px"
+                android:maxHeight="700px"
                 android:layout_gravity="center"
                 android:contentDescription="@string/img_desc_service"
                 app:srcCompat="@drawable/logo_2" />

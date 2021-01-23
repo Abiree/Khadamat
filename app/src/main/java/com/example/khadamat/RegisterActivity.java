@@ -93,6 +93,7 @@ public class RegisterActivity extends AppCompatActivity {
         intent.putExtra("email",email);
         intent.putExtra("password",Password);
         startActivity(intent);
+        finish();
 
     }
 }

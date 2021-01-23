@@ -8,4 +8,6 @@
     <dimen name="textViewHeight">24dp</dimen>
     <dimen name="textViewPaddingLeft">40dp</dimen>
     <dimen name="ProfileImageDim">140dp</dimen>
+    <dimen name="logo_w">329dp</dimen>
+    <dimen name="logo_h">128dp</dimen>
 </resources>

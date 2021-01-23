@@ -63,6 +63,12 @@ public class CreateService extends AppCompatActivity {
 
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        finish();
+    }
+
     public void gomain(View view) {
         String full_name= (String) extra.get("username");
         String email=extra.getString("email");
