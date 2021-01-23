@@ -18,8 +18,8 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="nameex" />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="chi" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="assert" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
@@ -303,26 +303,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="462" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1610818647231" />
-    <state width="1323" height="149" key="GridCell.Tab.0.bottom" timestamp="1611336146656">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1611361894565">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="618" height="9" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611072711557" />
-    <state width="1323" height="149" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1611336146656" />
-    <state width="1323" height="149" key="GridCell.Tab.0.center" timestamp="1611336146656">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1611361894565" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1611361894564">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="618" height="9" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611072711556" />
-    <state width="1323" height="149" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1611336146656" />
-    <state width="1323" height="149" key="GridCell.Tab.0.left" timestamp="1611336146654">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1611361894564" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1611361894564">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="618" height="9" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611072711556" />
-    <state width="1323" height="149" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1611336146654" />
-    <state width="1323" height="149" key="GridCell.Tab.0.right" timestamp="1611336146656">
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1611361894564" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1611361894564">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="618" height="9" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611072711557" />
-    <state width="1323" height="149" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1611336146656" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1611361894564" />
     <state width="1323" height="192" key="GridCell.Tab.1.bottom" timestamp="1611250877534">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -372,21 +372,5 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="345" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610471625369" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/khadamat/Home/HomeActivity.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/khadamat/Home/HomeActivity.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

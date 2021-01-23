@@ -49,7 +49,7 @@ public class ServiceAdapter extends RecyclerView.Adapter<ServiceAdapter.ServiceH
         holder.serviceName.setText(service.getType_service());
         holder.serviceCity.setText(service.getVille());
         holder.serviceRating.setText(service.getRating());
-        holder.servicePrice.setText(String.valueOf(service.getPrice()));
+        holder.servicePrice.setText(service.getPrice());
         holder.imageView.setImageDrawable(mCtx.getResources().getDrawable(service.getImageId(),null));
         holder.imageView.setOnClickListener(new View.OnClickListener() {
             @Override
