@@ -25,19 +25,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:orientation="horizontal">
-            <!--            android:layout_marginTop="@dimen/ll_margin_top"-->
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/imageView"
-                android:layout_width="@dimen/ProfileImageDim"
-                android:layout_height="@dimen/ProfileImageDim"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/profile_img"
-                android:padding="5dp"
+                style="@style/StyleProfileImage"
                 app:shapeAppearanceOverlay="@style/Circular"
                 app:strokeColor="@android:color/holo_blue_light"
                 app:strokeWidth="5dp" />
+
 
 
         </LinearLayout>
@@ -72,7 +67,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/service"
+                android:text="@string/profession"
                 android:textSize="20dp"
                 android:textStyle="bold"/>
         </LinearLayout>
@@ -84,7 +79,7 @@
 
             <TextView
                 android:id="@+id/textView"
-                style="@style/StyleProfile"
+                style="@style/StyleTitles"
                 android:text="@string/city" />
 
             <TextView
@@ -94,7 +89,7 @@
 
             <TextView
                 android:id="@+id/textView5"
-                style="@style/StyleProfile"
+                style="@style/StyleTitles"
                 android:text="@string/phone" />
 
             <TextView
@@ -104,7 +99,7 @@
 
             <TextView
                 android:id="@+id/textView7"
-                style="@style/StyleProfile"
+                style="@style/StyleTitles"
                 android:text="email" />
 
             <TextView
@@ -114,17 +109,17 @@
 
             <TextView
                 android:id="@+id/textView9"
-                style="@style/StyleProfile"
+                style="@style/StyleTitles"
                 android:text="@string/serviceName" />
 
             <TextView
                 android:id="@+id/textView10"
                 style="@style/StyleProfileValues"
-                android:text="@string/service" />
+                android:text="@string/profession" />
 
             <TextView
                 android:id="@+id/textView12"
-                style="@style/StyleProfile"
+                style="@style/StyleTitles"
                 android:layout_height="31dp"
                 android:text="@string/descriptionOfService" />
 

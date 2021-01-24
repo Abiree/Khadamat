@@ -17,7 +17,7 @@
     <style name="Circular">
         <item name="cornerSize" > 50% </item>
     </style>
-    <style name="StyleProfile">
+    <style name="StyleTitles">
         <item name="android:gravity" > center_vertical</item>
         <item name="android:paddingLeft" > @dimen/textViewPaddingLeft</item>
         <item name="android:layout_height" > @dimen/textViewHeight</item>
@@ -34,19 +34,36 @@
         <item name="android:textStyle" >bold</item>
     </style>
 
+    <style name="StyleSettingsValues">
+                <item name="android:gravity" > center_vertical</item>
+                <item name="android:paddingLeft" > @dimen/textViewPaddingLeft</item>
+                <item name="android:layout_height" >  @dimen/textViewHeight</item>
+                <item name="android:layout_width" >0dp</item>
+                <item name="android:layout_weight" >4</item>
+                <item name="android:textColor" >@color/black</item>
+                <item name="android:textSize" >@dimen/textSizeProfileValues</item>
+                <item name="android:textStyle" >bold</item>
+    </style>
 
 
-<!--    <style name="myCustomMenuTextAppearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">-->
-<!--        <item name="android:textColor">@android:color/primary_text_dark</item>-->
-<!--    </style>-->
+
+
+
+    <style name="StyleProfileImage">
+        <item name="android:layout_width">@dimen/ProfileImageDim</item>
+        <item name="android:layout_height">@dimen/ProfileImageDim</item>
+        <item name="android:layout_marginTop">@dimen/ProfileImageMarginTop</item>
+        <item name="android:background">@drawable/profile_img</item>
+        <item name="android:padding">@dimen/ProfileImagePadding</item>
+    </style>
 
 
     <style name="StyleEdit" >
             <item name="android:onClick">edit</item>
             <item name="android:clickable">true</item>
+            <item name="android:layout_weight" >1</item>
             <item name="android:layout_width">0dp</item>
             <item name="android:layout_height">wrap_content</item>
-            <item name="android:layout_weight">1</item>
             <item name="android:text">Edit</item>
         <item name="android:textColor">@color/design_default_color_primary</item>
 
@@ -54,17 +71,62 @@
 
     <style name="StylePlainText" >
         <item name="android:visibility">gone</item>
-<!--        <item name="android:starStyle">@style/StyleProfileValues</item>-->
         <item name="android:gravity" > center_vertical</item>
         <item name="android:paddingLeft" > @dimen/textViewPaddingLeft</item>
         <item name="android:paddingBottom" > 0dp</item>
+        <item name="android:layout_width" >0dp</item>
+        <item name="android:layout_weight" >4</item>
         <item name="android:layout_height" > @dimen/textViewHeight</item>
-        <item name="android:layout_width" > match_parent</item>
         <item name="android:textColor" >@color/black</item>
         <item name="android:textSize" >@dimen/textSizeProfileValues</item>
         <item name="android:textStyle" >bold</item>
         <item name="android:background" >@color/white</item>
+    </style>
+
+    <style name="StyleCameraIcon" >
+        <item name="android:onClick">changePic</item>
+<!--        <item name="android:clickable">true</item>-->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/circle_shape</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/cameraIconMarginLeft</item>
 
     </style>
+
+
+
+    <style name="StyleUserName" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/user_name</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/textUserNameSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="StyleProfession" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/profession</item>
+        <item name="android:textSize">@dimen/textProfessionSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="StyleSaveButton" >
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">@string/save</item>
+        <item name="android:background">@drawable/save_button_shape</item>
+
+    </style>
+
+
+
+    <style name="StyleEditDescription" >
+        <item name="android:layout_marginLeft">@dimen/textViewPaddingLeft</item>
+    </style>
+
+
 
 </resources>

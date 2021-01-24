@@ -7,12 +7,13 @@
     <string name="phone">phone</string>
     <string name="phoneValue">+212600000000</string>
     <string name="serviceName">service name</string>
-    <string name="service">electricien</string>
+    <string name="profession">electricien</string>
     <string name="descriptionOfService">description of service</string>
     <string name="description">
         The electrician carries out the installation and maintenance of electrical systems,
         whether in companies or in private homes.
     </string>
     <string name="user_name">VICTOR NUCULICI</string>
+    <string name="save">Save</string>
 
 </resources>

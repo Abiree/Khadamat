@@ -6,5 +6,9 @@
     <dimen name="textViewHeight">24dp</dimen>
     <dimen name="textViewPaddingLeft">40dp</dimen>
     <dimen name="ProfileImageDim">140dp</dimen>
+    <dimen name="ProfileImageMarginTop">10dp</dimen>
+    <dimen name="ProfileImagePadding">5dp</dimen>
+    <dimen name="cameraIconMarginLeft">2dp</dimen>
+    <dimen name="textProfessionSize">20dp</dimen>
 
 </resources>

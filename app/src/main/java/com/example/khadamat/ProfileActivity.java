@@ -18,7 +18,6 @@ public class ProfileActivity extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
         setTitle("My profile");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-//        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#FFFFFF")));
 
     }
 
@@ -40,13 +39,5 @@ public class ProfileActivity extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
-
-
-//        if (item.getItemId()==R.id.item) {
-//            startActivity(new Intent(ProfileActivity.this,SettingsActivity.class));
-//            System.out.println(super.onOptionsItemSelected(item));
-//            return true;
-//        }
-//        return super.onOptionsItemSelected(item);
     }
 }
