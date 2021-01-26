@@ -26,12 +26,16 @@ public class Main0Activity extends AppCompatActivity {
             getSupportActionBar().hide();
         }
         //session
+
         mAuth= FirebaseAuth.getInstance();
         firebaseUser=mAuth.getCurrentUser();
         if (firebaseUser != null) {
             startActivity(new Intent(Main0Activity.this, HomeActivity.class));
+            finish();
         }
     }
+
+
 
     public void onClickClient(View view) {
         Intent intento = new Intent(Main0Activity.this, HomeActivity.class);
@@ -39,10 +43,19 @@ public class Main0Activity extends AppCompatActivity {
     }
 
     public void onClickService(View view) {
-
+        mAuth= FirebaseAuth.getInstance();
+        firebaseUser=mAuth.getCurrentUser();
+        if (firebaseUser != null) {
+            Intent i = new Intent(Main0Activity.this, HomeActivity.class);
+            startActivity(i);
+            finish();
+        }
+        else{
             Intent intent = new Intent(Main0Activity.this, LoginActivity.class);
             startActivity(intent);
+        }
 
     }
+
     }
 

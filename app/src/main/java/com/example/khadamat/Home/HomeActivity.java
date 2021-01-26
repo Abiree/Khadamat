@@ -10,11 +10,13 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.khadamat.Main0Activity;
 import com.example.khadamat.ProfileActivity;
 import com.example.khadamat.R;
 import com.example.khadamat.Service;
 import com.example.khadamat.ServiceAdapter;
 import com.example.khadamat.User;
+import com.example.khadamat.logoutActivity;
 import com.example.khadamat.service.ServiceActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -63,26 +65,33 @@ public class HomeActivity extends AppCompatActivity {
         database = FirebaseDatabase.getInstance();
         ref = database.getReference("Users");
         ref.addListenerForSingleValueEvent(valueEventListener);
+
         //current user
         client=(TextView)findViewById(R.id.Client);
         mAuth= FirebaseAuth.getInstance();
         firebaseUser=mAuth.getCurrentUser();
-        Log.i("msj",firebaseUser.getUid());
-        ref2=database.getReference("Users/"+firebaseUser.getUid());
-        ref2.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-           if(snapshot.exists()){
-               User user =snapshot.getValue(User.class);
-               client.setText(user.getUsername());
-           }
-            }
 
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
 
-            }
-        });
+        if (firebaseUser != null) {
+            Log.i("msj",firebaseUser.getUid());
+            ref2 = database.getReference("Users/" + firebaseUser.getUid());
+            ref2.addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot snapshot) {
+                    if (snapshot.exists()) {
+                        User user = snapshot.getValue(User.class);
+                        client.setText(user.getUsername());
+                    }
+
+                }
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+
+                }
+            });
+        }
+
 
     }
 

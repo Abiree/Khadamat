@@ -1,17 +1,22 @@
 package com.example.khadamat;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
+
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-public class ProfileActivity extends AppCompatActivity {
 
+import com.google.firebase.auth.FirebaseAuth;
+
+
+
+public class ProfileActivity extends AppCompatActivity {
+    FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,11 +40,18 @@ public class ProfileActivity extends AppCompatActivity {
 
         switch (item.getItemId()) {
             case R.id.settings:
-                startActivity(new Intent(ProfileActivity.this,SettingsActivity.class));
+                startActivity(new Intent(ProfileActivity.this, SettingsActivity.class));
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
+
+            case R.id.logout:
+                startActivityForResult(new Intent(ProfileActivity.this, logoutActivity.class), 1001);
+                return true;
+
+
         }
+
 
 
 //        if (item.getItemId()==R.id.item) {

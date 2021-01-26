@@ -46,7 +46,7 @@ public class LoginActivity extends AppCompatActivity {
     //splashscreenduration
     private static int SPLASH_SCREEN = 100;
 
-    private FirebaseAuth mAuth;
+    FirebaseAuth mAuth;
     private EditText Email, password;
     private   ProgressBar progressBar ;
     private Bundle extra;
