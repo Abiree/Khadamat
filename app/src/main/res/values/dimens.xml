@@ -10,4 +10,8 @@
     <dimen name="ProfileImageDim">140dp</dimen>
     <dimen name="logo_w">329dp</dimen>
     <dimen name="logo_h">128dp</dimen>
+    <dimen name="ProfileImageMarginTop">10dp</dimen>
+    <dimen name="ProfileImagePadding">5dp</dimen>
+    <dimen name="cameraIconMarginLeft">2dp</dimen>
+    <dimen name="textProfessionSize">20dp</dimen>
 </resources>
