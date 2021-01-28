@@ -71,7 +71,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[GVVDU18822000672]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -140,7 +140,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.995473841">
+    <key name="android.template.-1117864094">
       <recent name="com.example.khadamat" />
     </key>
     <key name="android.template.39432257">
@@ -158,7 +158,7 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\asus\Downloads\0000dirasa\androidmobile\Khadamat\app\src\main\res\layout" />
     </key>
-    <key name="android.template.-1117864094">
+    <key name="android.template.995473841">
       <recent name="com.example.khadamat" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -168,6 +168,10 @@
       <recent name="C:\Users\pc\Desktop\khadamat\app\src\test" />
     </key>
     <key name="android.template.403286345">
+      <recent name="com.example.khadamat" />
+    </key>
+    <key name="android.template.252891164">
+      <recent name="com.example.khadamat.Detail" />
       <recent name="com.example.khadamat" />
     </key>
     <key name="android.template.-600804307">
@@ -290,11 +294,11 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="200" y="130" key="#PSD/0.0.1366.768@0.0.1366.768" timestamp="1611245897204" />
-    <state x="476" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1611342538510">
+    <state x="476" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1611850705912">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="446" y="41" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1611079438433" />
-    <state x="476" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1611342538510" />
+    <state x="476" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1611850705912" />
     <state x="386" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611603383785">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

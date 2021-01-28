@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.khadamat.Detail.DetailActivity;
 import com.example.khadamat.ProfileActivity;
 import com.example.khadamat.R;
 public class ServiceActivity extends AppCompatActivity {
@@ -51,6 +52,11 @@ public class ServiceActivity extends AppCompatActivity {
 
     public void goprofile(View view) {
         Intent intent = new Intent(ServiceActivity.this, ProfileActivity.class);
+        startActivity(intent);
+    }
+
+    public void goDetail(View view) {
+        Intent intent = new Intent(ServiceActivity.this, DetailActivity.class);
         startActivity(intent);
     }
 }

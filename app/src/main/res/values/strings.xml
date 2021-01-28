@@ -79,4 +79,6 @@
     <string name="settings">settings</string>
     <string name="profession">electricien</string>
     <string name="save">Save</string>
+    
+    <string name="map_key" translatable="false">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
 </resources>
