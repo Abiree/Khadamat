@@ -40,13 +40,12 @@ public class ServiceAdapter extends RecyclerView.Adapter<ServiceAdapter.ServiceH
         LayoutInflater inflater = LayoutInflater.from(mCtx);
         View view = inflater.inflate(R.layout.card_layout,null);
         return new ServiceHolder(view);
-
     }
 
     @Override
     public void onBindViewHolder(@NonNull ServiceHolder holder, int position) {
         final Service service = serviceList.get(position);
-        holder.serviceName.setText(service.getType_service());
+        holder.serviceName.setText(service.getServicename());
         holder.serviceCity.setText(service.getVille());
         holder.serviceRating.setText(service.getRating());
         holder.servicePrice.setText(service.getPrice());
@@ -57,10 +56,13 @@ public class ServiceAdapter extends RecyclerView.Adapter<ServiceAdapter.ServiceH
                 Intent intent = new Intent(mCtx,ServiceActivity.class);
                 intent.putExtra("serviceImg",service.getImageId());
                 intent.putExtra("fullname",service.getFull_name());
-                intent.putExtra("servicename",service.getType_service());
+                intent.putExtra("servicename",service.getServicename());
+                intent.putExtra("servicetype",service.getType_service());
                 intent.putExtra("serviceprice",service.getPrice());
                 intent.putExtra("telephone",service.getTelephone());
                 intent.putExtra("servicedescription",service.getDescription());
+                intent.putExtra("localisation",service.getLocalisation());
+                intent.putExtra("city",service.getVille());
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mCtx.startActivity(intent);
             }

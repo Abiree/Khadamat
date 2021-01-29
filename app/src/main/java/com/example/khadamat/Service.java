@@ -1,9 +1,25 @@
 package com.example.khadamat;
 
 public class Service {
-    private String full_name,telephone,description,ville,type_service,rating;
+    private String full_name,telephone,description,ville,type_service,rating,servicename,localisation;
     private String price;
     private int imageId;
+
+    public String getServicename() {
+        return servicename;
+    }
+
+    public void setServicename(String servicename) {
+        this.servicename = servicename;
+    }
+
+    public String getLocalisation() {
+        return localisation;
+    }
+
+    public void setLocalisation(String localisation) {
+        this.localisation = localisation;
+    }
 
     public Service() {
     }
@@ -40,7 +56,7 @@ public class Service {
         this.price = price;
     }
 
-    public Service(String full_name, String telephone, String description, String ville, String type_service, String price,int imageId) {
+    public Service(String full_name, String telephone, String description, String ville, String type_service, String price,int imageId,String servicename,String localisation) {
         this.full_name=full_name;
         this.telephone = telephone;
         this.description = description;
@@ -48,6 +64,8 @@ public class Service {
         this.type_service = type_service;
         this.price=price;
         this.imageId=imageId;
+        this.servicename=servicename;
+        this.localisation=localisation;
     }
 
     public String getTelephone() {

@@ -18,7 +18,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="msj" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="latlng" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
@@ -106,9 +106,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="valueResourceFile" />
-        <option value="layoutResourceFile" />
         <option value="Class" />
         <option value="resourceFile" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -140,7 +140,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.-1117864094">
+    <key name="android.template.995473841">
       <recent name="com.example.khadamat" />
     </key>
     <key name="android.template.39432257">
@@ -158,7 +158,10 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\asus\Downloads\0000dirasa\androidmobile\Khadamat\app\src\main\res\layout" />
     </key>
-    <key name="android.template.995473841">
+    <key name="android.template.700362793">
+      <recent name="com.example.khadamat" />
+    </key>
+    <key name="android.template.-1117864094">
       <recent name="com.example.khadamat" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -294,16 +297,16 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="200" y="130" key="#PSD/0.0.1366.768@0.0.1366.768" timestamp="1611245897204" />
-    <state x="476" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1611850705912">
+    <state x="476" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1611858919206">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="446" y="41" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1611079438433" />
-    <state x="476" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1611850705912" />
-    <state x="386" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611603383785">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="476" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1611858919206" />
+    <state x="412" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611926913409">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="386" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1611603383785" />
-    <state x="412" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1611151970337" />
+    <state x="412" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1611926913409" />
     <state x="221" y="95" key="AndroidCreateResourceDirectoryDialog" timestamp="1611601751929">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -330,26 +333,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="462" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1610818647231" />
-    <state width="1236" height="86" key="GridCell.Tab.0.bottom" timestamp="1611680845928">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1611927894184">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1236" height="86" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611680845928" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1611361894565" />
-    <state width="1236" height="86" key="GridCell.Tab.0.center" timestamp="1611680845928">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1611927894184" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1611927894184">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1236" height="86" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611680845928" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1611361894564" />
-    <state width="1236" height="86" key="GridCell.Tab.0.left" timestamp="1611680845927">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1611927894184" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1611927894184">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1236" height="86" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611680845927" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1611361894564" />
-    <state width="1236" height="86" key="GridCell.Tab.0.right" timestamp="1611680845928">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1611927894184" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1611927894184">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1236" height="86" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611680845928" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1611361894564" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1611927894184" />
     <state width="1236" height="165" key="GridCell.Tab.1.bottom" timestamp="1611610141938">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -378,10 +381,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="183" y="28" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1609868850137" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1611335505729">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1611859280617">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1611335505729" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1611859280617" />
     <state x="499" y="161" key="chooseDestDirectoryDialog" timestamp="1609872651751">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
