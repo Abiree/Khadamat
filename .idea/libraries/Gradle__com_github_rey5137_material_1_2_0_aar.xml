@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.rey5137:material:1.2.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b6a193fec4bccd91867f54be78fba438/jetified-material-1.2.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b6a193fec4bccd91867f54be78fba438/jetified-material-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b6a193fec4bccd91867f54be78fba438/jetified-material-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b6a193fec4bccd91867f54be78fba438/jetified-material-1.2.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.rey5137/material/1.2.0/f502bd18db3dd76b6de4eb96983405fd2fd871a8/material-1.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.rey5137/material/1.2.0/13d5e0742967473e5bc27d169eecfdeab04cee48/material-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
