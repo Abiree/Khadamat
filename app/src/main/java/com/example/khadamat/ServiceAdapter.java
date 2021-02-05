@@ -45,6 +45,7 @@ public class ServiceAdapter extends RecyclerView.Adapter<ServiceAdapter.ServiceH
     @Override
     public void onBindViewHolder(@NonNull ServiceHolder holder, int position) {
         final Service service = serviceList.get(position);
+
         holder.serviceName.setText(service.getServicename());
         holder.serviceCity.setText(service.getVille());
         holder.serviceRating.setText(service.getRating());
@@ -63,6 +64,7 @@ public class ServiceAdapter extends RecyclerView.Adapter<ServiceAdapter.ServiceH
                 intent.putExtra("servicedescription",service.getDescription());
                 intent.putExtra("localisation",service.getLocalisation());
                 intent.putExtra("city",service.getVille());
+                intent.putExtra("profileImage",service.getImageProfile());
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mCtx.startActivity(intent);
             }
@@ -73,6 +75,8 @@ public class ServiceAdapter extends RecyclerView.Adapter<ServiceAdapter.ServiceH
     public int getItemCount() {
         return serviceList.size();
     }
+
+
 
 
     class ServiceHolder extends RecyclerView.ViewHolder {
@@ -89,4 +93,6 @@ public class ServiceAdapter extends RecyclerView.Adapter<ServiceAdapter.ServiceH
         }
 
 
-}}
+}
+
+}

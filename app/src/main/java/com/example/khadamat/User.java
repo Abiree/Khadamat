@@ -6,18 +6,28 @@ import java.util.List;
 public class User {
     private String username,email,password;
     private Service service;
+    private String imagePath;
     public User() {
     }
 
-    public User(String username, String email, String password, Service service) {
+    public User(String username, String email, String password, Service service,String imagePath) {
         this.username = username;
         this.email = email;
         this.password = password;
         this.service = service;
+        this.imagePath = imagePath;
     }
 
     public String getUsername() {
         return username;
+    }
+
+    public String getImagePath() {
+        return imagePath;
+    }
+
+    public void setImagePath(String imagePath) {
+        this.imagePath = imagePath;
     }
 
     public void setUsername(String username) {

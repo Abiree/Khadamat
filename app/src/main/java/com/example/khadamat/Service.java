@@ -1,7 +1,9 @@
 package com.example.khadamat;
 
+import android.media.Image;
+
 public class Service {
-    private String full_name,telephone,description,ville,type_service,rating,servicename,localisation;
+    private String full_name,telephone,description,ville,type_service,rating,servicename,localisation,ImageProfile;
     private String price;
     private int imageId;
 
@@ -19,6 +21,14 @@ public class Service {
 
     public void setLocalisation(String localisation) {
         this.localisation = localisation;
+    }
+
+    public String getImageProfile() {
+        return ImageProfile;
+    }
+
+    public void setImageProfile(String imageProfile) {
+        ImageProfile = imageProfile;
     }
 
     public Service() {
@@ -56,7 +66,7 @@ public class Service {
         this.price = price;
     }
 
-    public Service(String full_name, String telephone, String description, String ville, String type_service, String price,int imageId,String servicename,String localisation) {
+    public Service(String full_name, String telephone, String description, String ville, String type_service, String price,int imageId,String servicename,String localisation,String ImageProfile) {
         this.full_name=full_name;
         this.telephone = telephone;
         this.description = description;
@@ -66,6 +76,7 @@ public class Service {
         this.imageId=imageId;
         this.servicename=servicename;
         this.localisation=localisation;
+        this.ImageProfile = ImageProfile;
     }
 
     public String getTelephone() {

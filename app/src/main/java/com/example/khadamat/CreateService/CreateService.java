@@ -130,9 +130,8 @@ public class CreateService extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            Service service1 = new Service(full_name,telephone,description,ville,service,prix,imageId,service_name,local);
-
-                            User user = new User(full_name, email, Password,service1);
+                            Service service1 = new Service(full_name,telephone,description,ville,service,prix,imageId,service_name,local,"");
+                            User user = new User(full_name, email, Password,service1,"");
                             FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
 
                                 @Override
