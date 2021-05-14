@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "626217035544",
+    "project_id": "khadamatv2",
+    "storage_bucket": "khadamatv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626217035544:android:10fcc6cb56e32fd440a06d",
+        "android_client_info": {
+          "package_name": "com.example.khadamat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626217035544-s5feuhl435nuo59ummjgkukhkj8ru230.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4-qFDf9G5f8gY7pMe2i8aZCc4xHz01bM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626217035544-s5feuhl435nuo59ummjgkukhkj8ru230.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

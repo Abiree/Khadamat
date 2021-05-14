@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="ll_margin_top">20dp</dimen>
+    <dimen name="textUserNameSize">24dp</dimen>
+    <dimen name="textSizeProfileValues">14dp</dimen>
+    <dimen name="textViewHeight">24dp</dimen>
+    <dimen name="textViewPaddingLeft">40dp</dimen>
+    <dimen name="ProfileImageDim">140dp</dimen>
+    <dimen name="logo_w">329dp</dimen>
+    <dimen name="logo_h">128dp</dimen>
+    <dimen name="ProfileImageMarginTop">10dp</dimen>
+    <dimen name="ProfileImagePadding">5dp</dimen>
+    <dimen name="cameraIconMarginLeft">2dp</dimen>
+    <dimen name="textProfessionSize">20dp</dimen>
+</resources>

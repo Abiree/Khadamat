@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "801389081652",
+    "project_id": "khadamat-f3509",
+    "storage_bucket": "khadamat-f3509.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801389081652:android:31440062848114acf10661",
+        "android_client_info": {
+          "package_name": "com.example.khadamat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801389081652-7dnb98lkm6drcb4uq3mive12igpfiha6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb7dnaHnD7dzEKB6gjX1fTnfyXE0BM52o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801389081652-7dnb98lkm6drcb4uq3mive12igpfiha6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

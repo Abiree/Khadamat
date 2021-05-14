@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="161dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imageView"
+                style="@style/StyleProfileImage"
+                app:shapeAppearanceOverlay="@style/Circular"
+                app:strokeColor="@android:color/holo_blue_light"
+                app:strokeWidth="5dp" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/ll_margin_top"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="@string/user_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textUserNameSize"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/profession"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/StyleTitles"
+                android:text="@string/city" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/StyleProfileValues"
+                android:text="@string/cityName" />
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/StyleTitles"
+                android:text="@string/phone" />
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/StyleProfileValues"
+                android:text="@string/phoneValue" />
+
+            <TextView
+                android:id="@+id/textView7"
+                style="@style/StyleTitles"
+                android:text="email" />
+
+            <TextView
+                android:id="@+id/textView8"
+                style="@style/StyleProfileValues"
+                android:text="@string/emailValue" />
+
+            <TextView
+                android:id="@+id/textView9"
+                style="@style/StyleTitles"
+                android:text="@string/serviceName" />
+
+            <TextView
+                android:id="@+id/textView10"
+                style="@style/StyleProfileValues"
+                android:text="@string/profession" />
+
+            <TextView
+                android:id="@+id/textView12"
+                style="@style/StyleTitles"
+                android:layout_height="31dp"
+                android:text="@string/descriptionOfService" />
+
+            <TextView
+                android:id="@+id/textView11"
+                style="@style/StyleProfileValues"
+                android:layout_height="87dp"
+                android:paddingRight="40dp"
+                android:text="@string/descriptionn" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
